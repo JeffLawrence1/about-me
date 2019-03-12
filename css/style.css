@@ -10,4 +10,9 @@ h3{color: red}
 
 h4{color: rgb(110, 7, 97)}
 
-button{background-color: rgb(9, 122, 156)}
+button{
+background-color: rgb(26, 212, 188);
+width: 150px;
+height: 75px;
+font-size: 18px;
+}
