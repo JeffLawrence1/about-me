@@ -2,7 +2,7 @@ body{background-color: rgb(8, 82, 18)}
 
 #top{
     background-image: radial-gradient(green, yellow, red);
-    height: 500px;
+    height: 400px;
 }
 #list{
     background-color: cornsilk;
@@ -37,7 +37,18 @@ button{
 /* #tv{
     background-color: cornsilk;
 } */
+#qFacts{
+    margin-top: 50px;
+}
+#facts{
+    list-style-type: circle;
+    margin-left: 50px;
+}
 ol{
     list-style-type: upper-roman;
+    margin-left: 50px;
+}
+#food{
+    list-style-type: square;
     margin-left: 50px;
 }
