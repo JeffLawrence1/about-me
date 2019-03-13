@@ -65,7 +65,7 @@ if(game === true){
   console.log(favNum);
 
   while(favNum !== 13 && whileCount < 4){
-
+    
     if(favNum > 13){
       favNum = parseInt(prompt('Too high, guess again'), 10);
       whileCount += 1;
@@ -90,6 +90,7 @@ if(game === true){
 
   while(multiCount < 7 && correctGuess === false){
     var guessCity = prompt('Besides Bend guess another city I have lived in.');
+    console.log('the user answered ' + guessCity);
     for(var i = 0; i < city.length; i++){
       if(guessCity === city[i]){
         alert('Correct! I have lived in ' + city[i]);
