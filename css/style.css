@@ -1,18 +1,43 @@
 body{background-color: rgb(8, 82, 18)}
 
-div{background-image: radial-gradient(green, yellow, red)}
+#top{
+    background-image: radial-gradient(green, yellow, red);
+    height: 500px;
+}
+#list{
+    background-color: cornsilk;
+}
 
-h1{color: black; font-family: cursive}
+h1{
+    color: black; 
+    font-family: cursive; 
+    font-size: 26px;}
 
-h2{color: blue}
+h2{
+    color: blue; 
+    font-size: 20px;}
 
-h3{color: red}
+h3{
+    color: rgb(92, 11, 11);
+    font-size: 16px;
+}
 
-h4{color: rgb(110, 7, 97)}
+h4{
+    color: rgb(110, 7, 97);
+    font-size: 14px;
+}
 
 button{
-background-color: rgb(26, 212, 188);
-width: 150px;
-height: 75px;
-font-size: 18px;
+    margin: 20px;
+    background-color: rgb(26, 212, 188);
+    width: 150px;
+    height: 75px;
+    font-size: 18px;
+}
+/* #tv{
+    background-color: cornsilk;
+} */
+ol{
+    list-style-type: upper-roman;
+    margin-left: 50px;
 }
