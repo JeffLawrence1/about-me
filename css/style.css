@@ -40,7 +40,7 @@ button{
 #qFacts{
     margin-top: 50px;
 }
-#facts{
+.facts{
     list-style-type: circle;
     margin-left: 50px;
 }
