@@ -1,6 +1,6 @@
 'use strict';
 
-// function startGame(){
+function startGame(){
 
 var sumCorrect = 0; //added to keep track of correct answers.
 
@@ -111,5 +111,5 @@ if(game === true){
   alert('Come on guy you want to know about me!');
 }
 
-//   console.log('this');
-// }
+  // console.log('this');
+}
