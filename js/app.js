@@ -96,12 +96,9 @@ function city(){
         sumCorrect += 1;
       }
     }
-    // alert('guess again');
     multiCount += 1;
   }
   alert('Other than Bend I have lived in Seattle, Bellevue, Renton, Kirkland, and Spokane.');
-
-
   //-------------------final total---------------------
   alert(userName + ' you got ' + sumCorrect + ' questions right!');
 }
@@ -110,13 +107,8 @@ function city(){
 //startGame linter says its never used, but it is in fact used in index.html when the user clicks the start button
 function startGame(){
 
-  
-
   var game = confirm('Would you like to start the game?');
-
-
   if(game === true){
-    // console.log('true');
 
     alert('All questions are either yes or no.  They can be answered with either yes or no, y or n. Capitalization does not matter.');
     //added above alert statement to provide game instructions since the js runs before the rest of html loads.
@@ -127,6 +119,7 @@ function startGame(){
     age();
     favoriteNumber();
     city();
+
   }else{
     console.log('false');
     alert('Come on guy you want to know about me!');
